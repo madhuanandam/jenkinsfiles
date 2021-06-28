@@ -6,22 +6,22 @@ pipeline{
     stages{
         stage('This is dev stage'){
             steps{
-                echo 'madhu anandam dev stage'
+                echo "madhu anandam dev stage"
             }
         }
         stage('This is sit stage'){
             steps{
-                echo 'madhu anandam sit stage'
+                echo "madhu anandam sit stage"
             }
         }
         stage('this is uat stage'){
             steps{
-                echo 'madhu anandam ust stage'
+                echo "madhu anandam uat stage"
             }
         }
         stage('this is prod stage'){
         steps{
-            echo 'this is ${DEPLOY_TO} stage'
+            echo "this is ${DEPLOY_TO} stage"
           }
         }
     
